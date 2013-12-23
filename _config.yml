@@ -1,10 +1,13 @@
-name: "The South African 4x4 & Outdoor Show"
+name: " News | The South African 4x4 & Outdoor Show"
 description: "Exhibition of Everything Off Road and Everything Outdoor with Live Entertainment at the event"
 main_keywords: "Keyword"
 author: "Me"
 copyright: "2013"
 
 # Pagination
+
+paginate: 0
+paginate_path: "page:num"
 
 # Dependencies
 markdown:        rdiscount
@@ -14,3 +17,5 @@ pygments:         true
 base_url: /
 
 # Custom vars
+
+permalink: title
